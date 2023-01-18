@@ -1,0 +1,75 @@
+.individualuser {
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  width: 400px;
+  height: 500px;
+  margin: 10px;
+}
+.MainText {
+  font: 25px verdana;
+  font-weight: 600;
+}
+.SecondaryText {
+  font: 15px verdana;
+}
+.UserPhoto {
+  border-radius: 30px;
+}
+.FriendButton:hover {
+  background: #041547;
+  cursor: pointer;
+}
+.FriendButton {
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  background: #2a49a5;
+  border: 1px solid #082783;
+  box-shadow: 0 1px #4c6bc7 inset;
+  color: white;
+  padding: 3px 2px;
+  text-decoration: none;
+  text-shadow: 0 4px 0 #082783;
+  font: 20px Verdana;
+}
+.RemoveButton {
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  background: #838486;
+  border: 1px #3f3f3f ;
+  color: rgb(0, 0, 0);
+  padding: 3px 2px;
+  text-decoration: none;
+  font: 20px Verdana;
+}
+.RemoveButton:hover{
+  background: #535355;
+  cursor: pointer;
+}
+.PendingButton {
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid #757575;
+  background: #d1d1d1;
+  color: rgb(0, 0, 0);
+  padding: 3px 2px;
+  text-decoration: none;
+  font: 20px Verdana;
+}
+.PendingButton:hover{
+  background: #cbcbcb;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}

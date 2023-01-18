@@ -1,0 +1,19 @@
+.Load:hover{
+  background: #383838;
+  cursor: pointer;
+}
+
+.Load {
+  text-align: center;
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  background: #4f4f4f;
+  border: 1px solid;
+  box-shadow: 0 1px black inset;
+  color: white;
+  padding: 3px 2px;
+  text-decoration: none;
+  text-shadow: 0 4px 0 black;
+  font: 20px Verdana;
+}
